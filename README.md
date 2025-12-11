@@ -1,16 +1,27 @@
-# React + Vite
+# LSPD:MP Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Website for LSPD:MP server on GTA5's multiplayer platform alt:V
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Run :
+```bash
+npm i
+```
 
-## React Compiler
+## Build
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Run :
+```bash
+npm run build
+```
 
-## Expanding the ESLint configuration
+## Disclamers
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Grand Theft Auto and Grand Theft Auto: V are registered trademarks of Take-Two Interactive Software. All trademarks used are the property of their respective owners. Me and this project are not affiliated with or endorsed by Rockstar Games, Take-Two Interactive Software or other rightsholders. I do not host any user-generated servers and are not responsible for any user-generated content. All user-generated content is the property of its respective owners. 
+
+> This project is not associated with alt:V or the altMP Team. For any informations onf alt:V, check their website here : [alt:V](https://altv.mp/)
+___
+
+**Made with ❤️ by Scoffgard**
