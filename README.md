@@ -10,6 +10,11 @@ Run :
 npm i
 ```
 
+Create file `.env.local` at root and populate the file with those filled vars: 
+```env
+VITE_DISCORD_INVITE=<discord invite of server>
+```
+
 ## Build
 
 Run :
