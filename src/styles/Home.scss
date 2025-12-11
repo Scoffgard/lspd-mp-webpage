@@ -1,0 +1,228 @@
+.home {
+  background-color: #090926;
+  color: #fff;
+
+  .hero {
+    position: relative;
+    height: 100svh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(/assets/illus.webp);
+  
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      opacity: .3;
+    }
+
+    .shadow {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+
+      background: radial-gradient(closest-side, rgba(17, 17, 68, 1) 0%, rgba(17, 17, 68, 0.6) 50%, rgba(17, 17, 68, 0) 100%);
+
+      width: 62vw;
+      aspect-ratio: 16/9;
+    }
+
+    svg {
+      z-index: 100;
+      width: 55vw;
+    }
+
+    .cta {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      span {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      svg {
+        height: 44px;
+        animation: cta-icon 4s normal 2s infinite forwards;
+      }
+    }
+  }
+
+  .about {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 50px;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .faq {
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      p {
+        font-size: 20px;
+        font-weight: 300;
+      }
+
+      a {
+        color: #fff;
+        font-weight: 600;
+      }
+    }
+
+    .trailer {
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .vid-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        background-color: #222;
+        padding: 10px;
+
+        border-radius: 10px;
+
+
+        video {
+          width: 100%;
+          border-radius: 5px;
+        
+          &:not(:has(controls)) {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+
+    a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+
+      padding: 20px;
+      
+      border-radius: 30px;
+      background-color: #5865F2;
+
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+      text-decoration: none;
+
+      svg {
+        width: 90px;
+      }
+    }
+  }
+
+  .disclaimers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    padding: 30px 50px;
+    background-color: #111;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    p {
+      opacity: .5;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+@keyframes cta-icon {
+  0% {
+    transform: translateY(0%);
+  }
+  12% {
+    transform: translateY(20%);
+  }
+  25% {
+    transform: translateY(0%);
+  }
+  37% {
+    transform: translateY(20%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .home {
+    .hero {
+      &::before {
+        background-size: 70%;
+      }
+      .shadow {
+        width: 82vw;
+      }
+      svg {
+        width: 77vw;
+      }
+    }
+
+    .about {
+      flex-direction: column;
+    }
+  }
+}
