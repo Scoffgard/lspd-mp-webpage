@@ -22,7 +22,7 @@ export default {
   discord: 'Rejoindre notre serveur discord',
   disclaimers: {
     gta: 'Grand Theft Auto et Grand Theft Auto: V sont des marques déposées de Take-Two Interactive Software. Toutes les marques utilisées appartiennent à leurs propriétaires respectifs. LSPD:MP n\'est ni affiliés à, ni approuvés par Rockstar Games, Take-Two Interactive Software ou tout autre détenteur de droits. LSPD:MP n\'héberge aucun contenu généré par les utilisateurs. Tout contenu généré par les utilisateurs appartient à ses propriétaires respectifs.',
-    altv: 'Ce projet n\'est pas associé à RAGE Multiplayer ou l\'équipe de RAGE Multiplayer. Pour toutes informations à propos de RAGE Multiplayer, visitez leur site internet : '
+    ragemp: 'Ce projet n\'est pas associé à RAGE Multiplayer ou l\'équipe de RAGE Multiplayer. Pour toutes informations à propos de RAGE Multiplayer, visitez leur site internet : '
   },
   copyright: '© LSPD:MP - Tout droits réservés.',
 }
