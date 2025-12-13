@@ -85,7 +85,7 @@ export default function Home() {
       </div>
       <div className='disclaimers'>
         <p>{t('home.disclaimers.gta')}</p>
-        <p>{t('home.disclaimers.altv')}<a href='https://altv.mp/' target='_blank'>altV</a></p>
+        <p>{t('home.disclaimers.altv')}<a href='https://rage.mp/' target='_blank'>RAGE Multiplayer</a></p>
         <p>{t('home.copyright')}</p>
       </div>
     </div>
